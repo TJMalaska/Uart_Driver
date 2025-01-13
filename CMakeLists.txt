@@ -49,6 +49,8 @@ target_link_directories(${CMAKE_PROJECT_NAME} PRIVATE
 target_sources(${CMAKE_PROJECT_NAME} PRIVATE
     # Add user sources here
     Drivers/TJ_DRIVER/uart_driver.c
+    Core/app/cli.c
+    Core/containers/circle_array.c
 )
 
 # Add include paths
@@ -56,6 +58,9 @@ target_include_directories(${CMAKE_PROJECT_NAME} PRIVATE
     # Add user defined include paths
     ${CMAKE_SOURCE_DIR}Core/Inc
     ${CMAKE_SOURCE_DIR}Drivers/TJ_DRIVER
+    ${CMAKE_SOURCE_DIR}Core/containers
+    ${CMAKE_SOURCE_DIR}Core/app
+
 )
 
 # Add project symbols (macros)

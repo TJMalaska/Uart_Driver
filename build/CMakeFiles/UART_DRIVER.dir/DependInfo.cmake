@@ -23,11 +23,15 @@ set(CMAKE_TARGET_DEFINITIONS_ASM
 set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "/Users/tjmalaska/Desktop/UART_DRIVERCore/Inc"
   "/Users/tjmalaska/Desktop/UART_DRIVERDrivers/TJ_DRIVER"
+  "/Users/tjmalaska/Desktop/UART_DRIVERCore/containers"
+  "/Users/tjmalaska/Desktop/UART_DRIVERCore/app"
   "/Users/tjmalaska/Desktop/UART_DRIVER/cmake/stm32cubemx/../../Core/Inc"
   "/Users/tjmalaska/Desktop/UART_DRIVER/cmake/stm32cubemx/../../Drivers/STM32L4xx_HAL_Driver/Inc"
   "/Users/tjmalaska/Desktop/UART_DRIVER/cmake/stm32cubemx/../../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy"
   "/Users/tjmalaska/Desktop/UART_DRIVER/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32L4xx/Include"
   "/Users/tjmalaska/Desktop/UART_DRIVER/cmake/stm32cubemx/../../Drivers/CMSIS/Include"
+  "/Users/tjmalaska/Desktop/UART_DRIVER/cmake/stm32cubemx/../../Core/app"
+  "/Users/tjmalaska/Desktop/UART_DRIVER/cmake/stm32cubemx/../../Core/containers"
   )
 
 # The set of dependency files which are needed:
@@ -38,6 +42,8 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/tjmalaska/Desktop/UART_DRIVER/Core/Src/syscalls.c" "CMakeFiles/UART_DRIVER.dir/Core/Src/syscalls.c.obj" "gcc" "CMakeFiles/UART_DRIVER.dir/Core/Src/syscalls.c.obj.d"
   "/Users/tjmalaska/Desktop/UART_DRIVER/Core/Src/sysmem.c" "CMakeFiles/UART_DRIVER.dir/Core/Src/sysmem.c.obj" "gcc" "CMakeFiles/UART_DRIVER.dir/Core/Src/sysmem.c.obj.d"
   "/Users/tjmalaska/Desktop/UART_DRIVER/Core/Src/system_stm32l4xx.c" "CMakeFiles/UART_DRIVER.dir/Core/Src/system_stm32l4xx.c.obj" "gcc" "CMakeFiles/UART_DRIVER.dir/Core/Src/system_stm32l4xx.c.obj.d"
+  "/Users/tjmalaska/Desktop/UART_DRIVER/Core/app/cli.c" "CMakeFiles/UART_DRIVER.dir/Core/app/cli.c.obj" "gcc" "CMakeFiles/UART_DRIVER.dir/Core/app/cli.c.obj.d"
+  "/Users/tjmalaska/Desktop/UART_DRIVER/Core/containers/circle_array.c" "CMakeFiles/UART_DRIVER.dir/Core/containers/circle_array.c.obj" "gcc" "CMakeFiles/UART_DRIVER.dir/Core/containers/circle_array.c.obj.d"
   "/Users/tjmalaska/Desktop/UART_DRIVER/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c" "CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj" "gcc" "CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj.d"
   "/Users/tjmalaska/Desktop/UART_DRIVER/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c" "CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj" "gcc" "CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj.d"
   "/Users/tjmalaska/Desktop/UART_DRIVER/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c" "CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c.obj" "gcc" "CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c.obj.d"

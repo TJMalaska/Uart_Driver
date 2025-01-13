@@ -92,8 +92,9 @@ int main(void)
   //MX_USART2_UART_Init();
   /* USER CODE BEGIN 2 */
   uart_init(USART2);
-  uart_send_char(USART2, 'a');
- uart_send_char(USART2, 'b');
+  //uint8_t str[] = "hello";
+  //uart_send_buffer(USART2, str, 5);
+  //uart_send_char(USART2, 'a');
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -101,9 +102,7 @@ int main(void)
   while (1)
   {
     /* USER CODE END WHILE */ 
-      uart_send_char(USART2, 'a');
-     uart_send_char(USART2, 'b');
-    HAL_Delay(500);
+
     /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */

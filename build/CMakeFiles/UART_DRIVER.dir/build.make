@@ -83,10 +83,38 @@ CMakeFiles/UART_DRIVER.dir/Drivers/TJ_DRIVER/uart_driver.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/UART_DRIVER.dir/Drivers/TJ_DRIVER/uart_driver.c.s"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tjmalaska/Desktop/UART_DRIVER/Drivers/TJ_DRIVER/uart_driver.c -o CMakeFiles/UART_DRIVER.dir/Drivers/TJ_DRIVER/uart_driver.c.s
 
+CMakeFiles/UART_DRIVER.dir/Core/app/cli.c.obj: CMakeFiles/UART_DRIVER.dir/flags.make
+CMakeFiles/UART_DRIVER.dir/Core/app/cli.c.obj: /Users/tjmalaska/Desktop/UART_DRIVER/Core/app/cli.c
+CMakeFiles/UART_DRIVER.dir/Core/app/cli.c.obj: CMakeFiles/UART_DRIVER.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tjmalaska/Desktop/UART_DRIVER/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/UART_DRIVER.dir/Core/app/cli.c.obj"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/UART_DRIVER.dir/Core/app/cli.c.obj -MF CMakeFiles/UART_DRIVER.dir/Core/app/cli.c.obj.d -o CMakeFiles/UART_DRIVER.dir/Core/app/cli.c.obj -c /Users/tjmalaska/Desktop/UART_DRIVER/Core/app/cli.c
+
+CMakeFiles/UART_DRIVER.dir/Core/app/cli.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/UART_DRIVER.dir/Core/app/cli.c.i"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tjmalaska/Desktop/UART_DRIVER/Core/app/cli.c > CMakeFiles/UART_DRIVER.dir/Core/app/cli.c.i
+
+CMakeFiles/UART_DRIVER.dir/Core/app/cli.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/UART_DRIVER.dir/Core/app/cli.c.s"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tjmalaska/Desktop/UART_DRIVER/Core/app/cli.c -o CMakeFiles/UART_DRIVER.dir/Core/app/cli.c.s
+
+CMakeFiles/UART_DRIVER.dir/Core/containers/circle_array.c.obj: CMakeFiles/UART_DRIVER.dir/flags.make
+CMakeFiles/UART_DRIVER.dir/Core/containers/circle_array.c.obj: /Users/tjmalaska/Desktop/UART_DRIVER/Core/containers/circle_array.c
+CMakeFiles/UART_DRIVER.dir/Core/containers/circle_array.c.obj: CMakeFiles/UART_DRIVER.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tjmalaska/Desktop/UART_DRIVER/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/UART_DRIVER.dir/Core/containers/circle_array.c.obj"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/UART_DRIVER.dir/Core/containers/circle_array.c.obj -MF CMakeFiles/UART_DRIVER.dir/Core/containers/circle_array.c.obj.d -o CMakeFiles/UART_DRIVER.dir/Core/containers/circle_array.c.obj -c /Users/tjmalaska/Desktop/UART_DRIVER/Core/containers/circle_array.c
+
+CMakeFiles/UART_DRIVER.dir/Core/containers/circle_array.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/UART_DRIVER.dir/Core/containers/circle_array.c.i"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tjmalaska/Desktop/UART_DRIVER/Core/containers/circle_array.c > CMakeFiles/UART_DRIVER.dir/Core/containers/circle_array.c.i
+
+CMakeFiles/UART_DRIVER.dir/Core/containers/circle_array.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/UART_DRIVER.dir/Core/containers/circle_array.c.s"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tjmalaska/Desktop/UART_DRIVER/Core/containers/circle_array.c -o CMakeFiles/UART_DRIVER.dir/Core/containers/circle_array.c.s
+
 CMakeFiles/UART_DRIVER.dir/Core/Src/main.c.obj: CMakeFiles/UART_DRIVER.dir/flags.make
 CMakeFiles/UART_DRIVER.dir/Core/Src/main.c.obj: /Users/tjmalaska/Desktop/UART_DRIVER/Core/Src/main.c
 CMakeFiles/UART_DRIVER.dir/Core/Src/main.c.obj: CMakeFiles/UART_DRIVER.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tjmalaska/Desktop/UART_DRIVER/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/UART_DRIVER.dir/Core/Src/main.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tjmalaska/Desktop/UART_DRIVER/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/UART_DRIVER.dir/Core/Src/main.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/UART_DRIVER.dir/Core/Src/main.c.obj -MF CMakeFiles/UART_DRIVER.dir/Core/Src/main.c.obj.d -o CMakeFiles/UART_DRIVER.dir/Core/Src/main.c.obj -c /Users/tjmalaska/Desktop/UART_DRIVER/Core/Src/main.c
 
 CMakeFiles/UART_DRIVER.dir/Core/Src/main.c.i: cmake_force
@@ -100,7 +128,7 @@ CMakeFiles/UART_DRIVER.dir/Core/Src/main.c.s: cmake_force
 CMakeFiles/UART_DRIVER.dir/Core/Src/stm32l4xx_it.c.obj: CMakeFiles/UART_DRIVER.dir/flags.make
 CMakeFiles/UART_DRIVER.dir/Core/Src/stm32l4xx_it.c.obj: /Users/tjmalaska/Desktop/UART_DRIVER/Core/Src/stm32l4xx_it.c
 CMakeFiles/UART_DRIVER.dir/Core/Src/stm32l4xx_it.c.obj: CMakeFiles/UART_DRIVER.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tjmalaska/Desktop/UART_DRIVER/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/UART_DRIVER.dir/Core/Src/stm32l4xx_it.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tjmalaska/Desktop/UART_DRIVER/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/UART_DRIVER.dir/Core/Src/stm32l4xx_it.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/UART_DRIVER.dir/Core/Src/stm32l4xx_it.c.obj -MF CMakeFiles/UART_DRIVER.dir/Core/Src/stm32l4xx_it.c.obj.d -o CMakeFiles/UART_DRIVER.dir/Core/Src/stm32l4xx_it.c.obj -c /Users/tjmalaska/Desktop/UART_DRIVER/Core/Src/stm32l4xx_it.c
 
 CMakeFiles/UART_DRIVER.dir/Core/Src/stm32l4xx_it.c.i: cmake_force
@@ -114,7 +142,7 @@ CMakeFiles/UART_DRIVER.dir/Core/Src/stm32l4xx_it.c.s: cmake_force
 CMakeFiles/UART_DRIVER.dir/Core/Src/stm32l4xx_hal_msp.c.obj: CMakeFiles/UART_DRIVER.dir/flags.make
 CMakeFiles/UART_DRIVER.dir/Core/Src/stm32l4xx_hal_msp.c.obj: /Users/tjmalaska/Desktop/UART_DRIVER/Core/Src/stm32l4xx_hal_msp.c
 CMakeFiles/UART_DRIVER.dir/Core/Src/stm32l4xx_hal_msp.c.obj: CMakeFiles/UART_DRIVER.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tjmalaska/Desktop/UART_DRIVER/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/UART_DRIVER.dir/Core/Src/stm32l4xx_hal_msp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tjmalaska/Desktop/UART_DRIVER/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/UART_DRIVER.dir/Core/Src/stm32l4xx_hal_msp.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/UART_DRIVER.dir/Core/Src/stm32l4xx_hal_msp.c.obj -MF CMakeFiles/UART_DRIVER.dir/Core/Src/stm32l4xx_hal_msp.c.obj.d -o CMakeFiles/UART_DRIVER.dir/Core/Src/stm32l4xx_hal_msp.c.obj -c /Users/tjmalaska/Desktop/UART_DRIVER/Core/Src/stm32l4xx_hal_msp.c
 
 CMakeFiles/UART_DRIVER.dir/Core/Src/stm32l4xx_hal_msp.c.i: cmake_force
@@ -128,7 +156,7 @@ CMakeFiles/UART_DRIVER.dir/Core/Src/stm32l4xx_hal_msp.c.s: cmake_force
 CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c.obj: CMakeFiles/UART_DRIVER.dir/flags.make
 CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c.obj: /Users/tjmalaska/Desktop/UART_DRIVER/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c
 CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c.obj: CMakeFiles/UART_DRIVER.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tjmalaska/Desktop/UART_DRIVER/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tjmalaska/Desktop/UART_DRIVER/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c.obj -MF CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c.obj.d -o CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c.obj -c /Users/tjmalaska/Desktop/UART_DRIVER/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c
 
 CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c.i: cmake_force
@@ -142,7 +170,7 @@ CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c.
 CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.c.obj: CMakeFiles/UART_DRIVER.dir/flags.make
 CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.c.obj: /Users/tjmalaska/Desktop/UART_DRIVER/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.c
 CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.c.obj: CMakeFiles/UART_DRIVER.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tjmalaska/Desktop/UART_DRIVER/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tjmalaska/Desktop/UART_DRIVER/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.c.obj -MF CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.c.obj.d -o CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.c.obj -c /Users/tjmalaska/Desktop/UART_DRIVER/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.c
 
 CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.c.i: cmake_force
@@ -156,7 +184,7 @@ CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex
 CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.obj: CMakeFiles/UART_DRIVER.dir/flags.make
 CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.obj: /Users/tjmalaska/Desktop/UART_DRIVER/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c
 CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.obj: CMakeFiles/UART_DRIVER.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tjmalaska/Desktop/UART_DRIVER/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tjmalaska/Desktop/UART_DRIVER/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.obj -MF CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.obj.d -o CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.obj -c /Users/tjmalaska/Desktop/UART_DRIVER/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c
 
 CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.i: cmake_force
@@ -170,7 +198,7 @@ CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c
 CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c.obj: CMakeFiles/UART_DRIVER.dir/flags.make
 CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c.obj: /Users/tjmalaska/Desktop/UART_DRIVER/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c
 CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c.obj: CMakeFiles/UART_DRIVER.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tjmalaska/Desktop/UART_DRIVER/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tjmalaska/Desktop/UART_DRIVER/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c.obj -MF CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c.obj.d -o CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c.obj -c /Users/tjmalaska/Desktop/UART_DRIVER/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c
 
 CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c.i: cmake_force
@@ -184,7 +212,7 @@ CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_e
 CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj: CMakeFiles/UART_DRIVER.dir/flags.make
 CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj: /Users/tjmalaska/Desktop/UART_DRIVER/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c
 CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj: CMakeFiles/UART_DRIVER.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tjmalaska/Desktop/UART_DRIVER/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tjmalaska/Desktop/UART_DRIVER/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj -MF CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj.d -o CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj -c /Users/tjmalaska/Desktop/UART_DRIVER/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c
 
 CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.i: cmake_force
@@ -198,7 +226,7 @@ CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.s: c
 CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj: CMakeFiles/UART_DRIVER.dir/flags.make
 CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj: /Users/tjmalaska/Desktop/UART_DRIVER/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c
 CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj: CMakeFiles/UART_DRIVER.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tjmalaska/Desktop/UART_DRIVER/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tjmalaska/Desktop/UART_DRIVER/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj -MF CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj.d -o CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj -c /Users/tjmalaska/Desktop/UART_DRIVER/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c
 
 CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.i: cmake_force
@@ -212,7 +240,7 @@ CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.
 CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.obj: CMakeFiles/UART_DRIVER.dir/flags.make
 CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.obj: /Users/tjmalaska/Desktop/UART_DRIVER/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c
 CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.obj: CMakeFiles/UART_DRIVER.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tjmalaska/Desktop/UART_DRIVER/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tjmalaska/Desktop/UART_DRIVER/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.obj -MF CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.obj.d -o CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.obj -c /Users/tjmalaska/Desktop/UART_DRIVER/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c
 
 CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.i: cmake_force
@@ -226,7 +254,7 @@ CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex
 CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c.obj: CMakeFiles/UART_DRIVER.dir/flags.make
 CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c.obj: /Users/tjmalaska/Desktop/UART_DRIVER/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c
 CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c.obj: CMakeFiles/UART_DRIVER.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tjmalaska/Desktop/UART_DRIVER/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tjmalaska/Desktop/UART_DRIVER/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c.obj -MF CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c.obj.d -o CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c.obj -c /Users/tjmalaska/Desktop/UART_DRIVER/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c
 
 CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c.i: cmake_force
@@ -240,7 +268,7 @@ CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.
 CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c.obj: CMakeFiles/UART_DRIVER.dir/flags.make
 CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c.obj: /Users/tjmalaska/Desktop/UART_DRIVER/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c
 CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c.obj: CMakeFiles/UART_DRIVER.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tjmalaska/Desktop/UART_DRIVER/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tjmalaska/Desktop/UART_DRIVER/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c.obj -MF CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c.obj.d -o CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c.obj -c /Users/tjmalaska/Desktop/UART_DRIVER/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c
 
 CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c.i: cmake_force
@@ -254,7 +282,7 @@ CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_
 CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c.obj: CMakeFiles/UART_DRIVER.dir/flags.make
 CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c.obj: /Users/tjmalaska/Desktop/UART_DRIVER/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c
 CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c.obj: CMakeFiles/UART_DRIVER.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tjmalaska/Desktop/UART_DRIVER/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tjmalaska/Desktop/UART_DRIVER/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c.obj -MF CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c.obj.d -o CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c.obj -c /Users/tjmalaska/Desktop/UART_DRIVER/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c
 
 CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c.i: cmake_force
@@ -268,7 +296,7 @@ CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_
 CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj: CMakeFiles/UART_DRIVER.dir/flags.make
 CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj: /Users/tjmalaska/Desktop/UART_DRIVER/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c
 CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj: CMakeFiles/UART_DRIVER.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tjmalaska/Desktop/UART_DRIVER/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tjmalaska/Desktop/UART_DRIVER/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj -MF CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj.d -o CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj -c /Users/tjmalaska/Desktop/UART_DRIVER/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c
 
 CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.i: cmake_force
@@ -282,7 +310,7 @@ CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c
 CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj: CMakeFiles/UART_DRIVER.dir/flags.make
 CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj: /Users/tjmalaska/Desktop/UART_DRIVER/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c
 CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj: CMakeFiles/UART_DRIVER.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tjmalaska/Desktop/UART_DRIVER/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tjmalaska/Desktop/UART_DRIVER/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj -MF CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj.d -o CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj -c /Users/tjmalaska/Desktop/UART_DRIVER/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c
 
 CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.i: cmake_force
@@ -296,7 +324,7 @@ CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.
 CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c.obj: CMakeFiles/UART_DRIVER.dir/flags.make
 CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c.obj: /Users/tjmalaska/Desktop/UART_DRIVER/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c
 CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c.obj: CMakeFiles/UART_DRIVER.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tjmalaska/Desktop/UART_DRIVER/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tjmalaska/Desktop/UART_DRIVER/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c.obj -MF CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c.obj.d -o CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c.obj -c /Users/tjmalaska/Desktop/UART_DRIVER/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c
 
 CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c.i: cmake_force
@@ -310,7 +338,7 @@ CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex
 CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c.obj: CMakeFiles/UART_DRIVER.dir/flags.make
 CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c.obj: /Users/tjmalaska/Desktop/UART_DRIVER/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c
 CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c.obj: CMakeFiles/UART_DRIVER.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tjmalaska/Desktop/UART_DRIVER/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tjmalaska/Desktop/UART_DRIVER/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c.obj -MF CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c.obj.d -o CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c.obj -c /Users/tjmalaska/Desktop/UART_DRIVER/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c
 
 CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c.i: cmake_force
@@ -324,7 +352,7 @@ CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c.
 CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c.obj: CMakeFiles/UART_DRIVER.dir/flags.make
 CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c.obj: /Users/tjmalaska/Desktop/UART_DRIVER/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c
 CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c.obj: CMakeFiles/UART_DRIVER.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tjmalaska/Desktop/UART_DRIVER/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tjmalaska/Desktop/UART_DRIVER/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c.obj -MF CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c.obj.d -o CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c.obj -c /Users/tjmalaska/Desktop/UART_DRIVER/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c
 
 CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c.i: cmake_force
@@ -338,7 +366,7 @@ CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex
 CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c.obj: CMakeFiles/UART_DRIVER.dir/flags.make
 CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c.obj: /Users/tjmalaska/Desktop/UART_DRIVER/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c
 CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c.obj: CMakeFiles/UART_DRIVER.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tjmalaska/Desktop/UART_DRIVER/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tjmalaska/Desktop/UART_DRIVER/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c.obj -MF CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c.obj.d -o CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c.obj -c /Users/tjmalaska/Desktop/UART_DRIVER/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c
 
 CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c.i: cmake_force
@@ -352,7 +380,7 @@ CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c.
 CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj: CMakeFiles/UART_DRIVER.dir/flags.make
 CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj: /Users/tjmalaska/Desktop/UART_DRIVER/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c
 CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj: CMakeFiles/UART_DRIVER.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tjmalaska/Desktop/UART_DRIVER/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tjmalaska/Desktop/UART_DRIVER/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj -MF CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj.d -o CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj -c /Users/tjmalaska/Desktop/UART_DRIVER/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c
 
 CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.i: cmake_force
@@ -366,7 +394,7 @@ CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex
 CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj: CMakeFiles/UART_DRIVER.dir/flags.make
 CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj: /Users/tjmalaska/Desktop/UART_DRIVER/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c
 CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj: CMakeFiles/UART_DRIVER.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tjmalaska/Desktop/UART_DRIVER/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tjmalaska/Desktop/UART_DRIVER/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj -MF CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj.d -o CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj -c /Users/tjmalaska/Desktop/UART_DRIVER/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c
 
 CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.i: cmake_force
@@ -380,7 +408,7 @@ CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex
 CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c.obj: CMakeFiles/UART_DRIVER.dir/flags.make
 CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c.obj: /Users/tjmalaska/Desktop/UART_DRIVER/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c
 CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c.obj: CMakeFiles/UART_DRIVER.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tjmalaska/Desktop/UART_DRIVER/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tjmalaska/Desktop/UART_DRIVER/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c.obj -MF CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c.obj.d -o CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c.obj -c /Users/tjmalaska/Desktop/UART_DRIVER/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c
 
 CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c.i: cmake_force
@@ -394,7 +422,7 @@ CMakeFiles/UART_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c
 CMakeFiles/UART_DRIVER.dir/Core/Src/system_stm32l4xx.c.obj: CMakeFiles/UART_DRIVER.dir/flags.make
 CMakeFiles/UART_DRIVER.dir/Core/Src/system_stm32l4xx.c.obj: /Users/tjmalaska/Desktop/UART_DRIVER/Core/Src/system_stm32l4xx.c
 CMakeFiles/UART_DRIVER.dir/Core/Src/system_stm32l4xx.c.obj: CMakeFiles/UART_DRIVER.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tjmalaska/Desktop/UART_DRIVER/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/UART_DRIVER.dir/Core/Src/system_stm32l4xx.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tjmalaska/Desktop/UART_DRIVER/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/UART_DRIVER.dir/Core/Src/system_stm32l4xx.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/UART_DRIVER.dir/Core/Src/system_stm32l4xx.c.obj -MF CMakeFiles/UART_DRIVER.dir/Core/Src/system_stm32l4xx.c.obj.d -o CMakeFiles/UART_DRIVER.dir/Core/Src/system_stm32l4xx.c.obj -c /Users/tjmalaska/Desktop/UART_DRIVER/Core/Src/system_stm32l4xx.c
 
 CMakeFiles/UART_DRIVER.dir/Core/Src/system_stm32l4xx.c.i: cmake_force
@@ -408,7 +436,7 @@ CMakeFiles/UART_DRIVER.dir/Core/Src/system_stm32l4xx.c.s: cmake_force
 CMakeFiles/UART_DRIVER.dir/Core/Src/sysmem.c.obj: CMakeFiles/UART_DRIVER.dir/flags.make
 CMakeFiles/UART_DRIVER.dir/Core/Src/sysmem.c.obj: /Users/tjmalaska/Desktop/UART_DRIVER/Core/Src/sysmem.c
 CMakeFiles/UART_DRIVER.dir/Core/Src/sysmem.c.obj: CMakeFiles/UART_DRIVER.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tjmalaska/Desktop/UART_DRIVER/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/UART_DRIVER.dir/Core/Src/sysmem.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tjmalaska/Desktop/UART_DRIVER/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/UART_DRIVER.dir/Core/Src/sysmem.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/UART_DRIVER.dir/Core/Src/sysmem.c.obj -MF CMakeFiles/UART_DRIVER.dir/Core/Src/sysmem.c.obj.d -o CMakeFiles/UART_DRIVER.dir/Core/Src/sysmem.c.obj -c /Users/tjmalaska/Desktop/UART_DRIVER/Core/Src/sysmem.c
 
 CMakeFiles/UART_DRIVER.dir/Core/Src/sysmem.c.i: cmake_force
@@ -422,7 +450,7 @@ CMakeFiles/UART_DRIVER.dir/Core/Src/sysmem.c.s: cmake_force
 CMakeFiles/UART_DRIVER.dir/Core/Src/syscalls.c.obj: CMakeFiles/UART_DRIVER.dir/flags.make
 CMakeFiles/UART_DRIVER.dir/Core/Src/syscalls.c.obj: /Users/tjmalaska/Desktop/UART_DRIVER/Core/Src/syscalls.c
 CMakeFiles/UART_DRIVER.dir/Core/Src/syscalls.c.obj: CMakeFiles/UART_DRIVER.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tjmalaska/Desktop/UART_DRIVER/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/UART_DRIVER.dir/Core/Src/syscalls.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tjmalaska/Desktop/UART_DRIVER/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/UART_DRIVER.dir/Core/Src/syscalls.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/UART_DRIVER.dir/Core/Src/syscalls.c.obj -MF CMakeFiles/UART_DRIVER.dir/Core/Src/syscalls.c.obj.d -o CMakeFiles/UART_DRIVER.dir/Core/Src/syscalls.c.obj -c /Users/tjmalaska/Desktop/UART_DRIVER/Core/Src/syscalls.c
 
 CMakeFiles/UART_DRIVER.dir/Core/Src/syscalls.c.i: cmake_force
@@ -435,7 +463,7 @@ CMakeFiles/UART_DRIVER.dir/Core/Src/syscalls.c.s: cmake_force
 
 CMakeFiles/UART_DRIVER.dir/startup_stm32l476xx.s.obj: CMakeFiles/UART_DRIVER.dir/flags.make
 CMakeFiles/UART_DRIVER.dir/startup_stm32l476xx.s.obj: /Users/tjmalaska/Desktop/UART_DRIVER/startup_stm32l476xx.s
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tjmalaska/Desktop/UART_DRIVER/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building ASM object CMakeFiles/UART_DRIVER.dir/startup_stm32l476xx.s.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tjmalaska/Desktop/UART_DRIVER/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building ASM object CMakeFiles/UART_DRIVER.dir/startup_stm32l476xx.s.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/UART_DRIVER.dir/startup_stm32l476xx.s.obj -c /Users/tjmalaska/Desktop/UART_DRIVER/startup_stm32l476xx.s
 
 CMakeFiles/UART_DRIVER.dir/startup_stm32l476xx.s.i: cmake_force
@@ -449,6 +477,8 @@ CMakeFiles/UART_DRIVER.dir/startup_stm32l476xx.s.s: cmake_force
 # Object files for target UART_DRIVER
 UART_DRIVER_OBJECTS = \
 "CMakeFiles/UART_DRIVER.dir/Drivers/TJ_DRIVER/uart_driver.c.obj" \
+"CMakeFiles/UART_DRIVER.dir/Core/app/cli.c.obj" \
+"CMakeFiles/UART_DRIVER.dir/Core/containers/circle_array.c.obj" \
 "CMakeFiles/UART_DRIVER.dir/Core/Src/main.c.obj" \
 "CMakeFiles/UART_DRIVER.dir/Core/Src/stm32l4xx_it.c.obj" \
 "CMakeFiles/UART_DRIVER.dir/Core/Src/stm32l4xx_hal_msp.c.obj" \
@@ -480,6 +510,8 @@ UART_DRIVER_OBJECTS = \
 UART_DRIVER_EXTERNAL_OBJECTS =
 
 UART_DRIVER.elf: CMakeFiles/UART_DRIVER.dir/Drivers/TJ_DRIVER/uart_driver.c.obj
+UART_DRIVER.elf: CMakeFiles/UART_DRIVER.dir/Core/app/cli.c.obj
+UART_DRIVER.elf: CMakeFiles/UART_DRIVER.dir/Core/containers/circle_array.c.obj
 UART_DRIVER.elf: CMakeFiles/UART_DRIVER.dir/Core/Src/main.c.obj
 UART_DRIVER.elf: CMakeFiles/UART_DRIVER.dir/Core/Src/stm32l4xx_it.c.obj
 UART_DRIVER.elf: CMakeFiles/UART_DRIVER.dir/Core/Src/stm32l4xx_hal_msp.c.obj
@@ -508,7 +540,7 @@ UART_DRIVER.elf: CMakeFiles/UART_DRIVER.dir/Core/Src/syscalls.c.obj
 UART_DRIVER.elf: CMakeFiles/UART_DRIVER.dir/startup_stm32l476xx.s.obj
 UART_DRIVER.elf: CMakeFiles/UART_DRIVER.dir/build.make
 UART_DRIVER.elf: CMakeFiles/UART_DRIVER.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/tjmalaska/Desktop/UART_DRIVER/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Linking C executable UART_DRIVER.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/tjmalaska/Desktop/UART_DRIVER/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Linking C executable UART_DRIVER.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/UART_DRIVER.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

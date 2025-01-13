@@ -273,6 +273,54 @@ Core/Src/system_stm32l4xx.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/UART_DRIVER.dir/build.make CMakeFiles/UART_DRIVER.dir/Core/Src/system_stm32l4xx.c.s
 .PHONY : Core/Src/system_stm32l4xx.c.s
 
+Core/app/cli.obj: Core/app/cli.c.obj
+.PHONY : Core/app/cli.obj
+
+# target to build an object file
+Core/app/cli.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UART_DRIVER.dir/build.make CMakeFiles/UART_DRIVER.dir/Core/app/cli.c.obj
+.PHONY : Core/app/cli.c.obj
+
+Core/app/cli.i: Core/app/cli.c.i
+.PHONY : Core/app/cli.i
+
+# target to preprocess a source file
+Core/app/cli.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UART_DRIVER.dir/build.make CMakeFiles/UART_DRIVER.dir/Core/app/cli.c.i
+.PHONY : Core/app/cli.c.i
+
+Core/app/cli.s: Core/app/cli.c.s
+.PHONY : Core/app/cli.s
+
+# target to generate assembly for a file
+Core/app/cli.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UART_DRIVER.dir/build.make CMakeFiles/UART_DRIVER.dir/Core/app/cli.c.s
+.PHONY : Core/app/cli.c.s
+
+Core/containers/circle_array.obj: Core/containers/circle_array.c.obj
+.PHONY : Core/containers/circle_array.obj
+
+# target to build an object file
+Core/containers/circle_array.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UART_DRIVER.dir/build.make CMakeFiles/UART_DRIVER.dir/Core/containers/circle_array.c.obj
+.PHONY : Core/containers/circle_array.c.obj
+
+Core/containers/circle_array.i: Core/containers/circle_array.c.i
+.PHONY : Core/containers/circle_array.i
+
+# target to preprocess a source file
+Core/containers/circle_array.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UART_DRIVER.dir/build.make CMakeFiles/UART_DRIVER.dir/Core/containers/circle_array.c.i
+.PHONY : Core/containers/circle_array.c.i
+
+Core/containers/circle_array.s: Core/containers/circle_array.c.s
+.PHONY : Core/containers/circle_array.s
+
+# target to generate assembly for a file
+Core/containers/circle_array.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/UART_DRIVER.dir/build.make CMakeFiles/UART_DRIVER.dir/Core/containers/circle_array.c.s
+.PHONY : Core/containers/circle_array.c.s
+
 Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.obj: Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
 .PHONY : Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.obj
 
@@ -788,6 +836,12 @@ help:
 	@echo "... Core/Src/system_stm32l4xx.obj"
 	@echo "... Core/Src/system_stm32l4xx.i"
 	@echo "... Core/Src/system_stm32l4xx.s"
+	@echo "... Core/app/cli.obj"
+	@echo "... Core/app/cli.i"
+	@echo "... Core/app/cli.s"
+	@echo "... Core/containers/circle_array.obj"
+	@echo "... Core/containers/circle_array.i"
+	@echo "... Core/containers/circle_array.s"
 	@echo "... Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.obj"
 	@echo "... Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.i"
 	@echo "... Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.s"

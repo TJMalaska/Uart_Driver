@@ -1,10 +1,7 @@
-CMakeFiles/UART_DRIVER.dir/Core/Src/stm32l4xx_it.c.obj: \
- /Users/tjmalaska/Desktop/UART_DRIVER/Core/Src/stm32l4xx_it.c \
- /Users/tjmalaska/Desktop/UART_DRIVER/cmake/stm32cubemx/../../Core/Inc/main.h \
- /Users/tjmalaska/Desktop/UART_DRIVER/cmake/stm32cubemx/../../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h \
- /Users/tjmalaska/Desktop/UART_DRIVER/cmake/stm32cubemx/../../Core/Inc/stm32l4xx_hal_conf.h \
- /Users/tjmalaska/Desktop/UART_DRIVER/cmake/stm32cubemx/../../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc.h \
- /Users/tjmalaska/Desktop/UART_DRIVER/cmake/stm32cubemx/../../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_def.h \
+CMakeFiles/UART_DRIVER.dir/Core/app/cli.c.obj: \
+ /Users/tjmalaska/Desktop/UART_DRIVER/Core/app/cli.c \
+ /Users/tjmalaska/Desktop/UART_DRIVER/Core/app/cli.h \
+ /Users/tjmalaska/Desktop/UART_DRIVER/cmake/stm32cubemx/../../Core/Inc/uart_driver.h \
  /Users/tjmalaska/Desktop/UART_DRIVER/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l4xx.h \
  /Users/tjmalaska/Desktop/UART_DRIVER/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l476xx.h \
  /Users/tjmalaska/Desktop/UART_DRIVER/cmake/stm32cubemx/../../Drivers/CMSIS/Include/core_cm4.h \
@@ -20,6 +17,10 @@ CMakeFiles/UART_DRIVER.dir/Core/Src/stm32l4xx_it.c.obj: \
  /Users/tjmalaska/Desktop/UART_DRIVER/cmake/stm32cubemx/../../Drivers/CMSIS/Include/cmsis_gcc.h \
  /Users/tjmalaska/Desktop/UART_DRIVER/cmake/stm32cubemx/../../Drivers/CMSIS/Include/mpu_armv7.h \
  /Users/tjmalaska/Desktop/UART_DRIVER/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32L4xx/Include/system_stm32l4xx.h \
+ /Users/tjmalaska/Desktop/UART_DRIVER/cmake/stm32cubemx/../../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h \
+ /Users/tjmalaska/Desktop/UART_DRIVER/cmake/stm32cubemx/../../Core/Inc/stm32l4xx_hal_conf.h \
+ /Users/tjmalaska/Desktop/UART_DRIVER/cmake/stm32cubemx/../../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc.h \
+ /Users/tjmalaska/Desktop/UART_DRIVER/cmake/stm32cubemx/../../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_def.h \
  /Users/tjmalaska/Desktop/UART_DRIVER/cmake/stm32cubemx/../../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
  /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.3.1/include/stddef.h \
  /Users/tjmalaska/Desktop/UART_DRIVER/cmake/stm32cubemx/../../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc_ex.h \
@@ -35,7 +36,5 @@ CMakeFiles/UART_DRIVER.dir/Core/Src/stm32l4xx_it.c.obj: \
  /Users/tjmalaska/Desktop/UART_DRIVER/cmake/stm32cubemx/../../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr_ex.h \
  /Users/tjmalaska/Desktop/UART_DRIVER/cmake/stm32cubemx/../../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h \
  /Users/tjmalaska/Desktop/UART_DRIVER/cmake/stm32cubemx/../../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart_ex.h \
- /Users/tjmalaska/Desktop/UART_DRIVER/cmake/stm32cubemx/../../Core/Inc/stm32l4xx_it.h \
- /Users/tjmalaska/Desktop/UART_DRIVER/cmake/stm32cubemx/../../Core/Inc/uart_driver.h \
- /Users/tjmalaska/Desktop/UART_DRIVER/cmake/stm32cubemx/../../Core/app/cli.h \
- /Users/tjmalaska/Desktop/UART_DRIVER/cmake/stm32cubemx/../../Core/containers/circle_array.h
+ /Users/tjmalaska/Desktop/UART_DRIVER/cmake/stm32cubemx/../../Core/containers/circle_array.h \
+ /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.3.1/include/stdbool.h
